@@ -1,0 +1,40 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    latex_engine: pdflatex
+    template: rm_tex_ms_template.tex
+title: "Title"
+subtitle: "Subtitle"
+thanks: "Acknowledgements"
+date: # Today, unless specified. In smaller font if specified to allow for version numbering
+author:
+- name: Author 1
+  affiliation: Affiliation 1
+  mail: author1@yourmail.com
+abstract: 
+  text: In here you can write the abstract of your amazing academic paper. Blah Blah Blah my paper is awesome, don't reject it.
+  size: 'footnotesize'
+keywords: Key1, Key2, Key3
+jelcodes: JEL1, JEL2, JEL3
+# Document Class Options
+dc_options:
+  fontsize: 12pt
+# Fontfamily options Class Options
+fontfamily: mathpazo
+toc: false
+geometry: margin= 1in
+#spacing: onehalf
+bibliography: 
+biblio-style: apsr
+citecolor:
+urlcolor:
+linkcolor: blue
+anonymous: false # quickly sanitizes manuscript for blind review if 'true'
+
+---
+
+\begin{hyp}[dasdas]
+
+\end{hyp}
+aaaa
