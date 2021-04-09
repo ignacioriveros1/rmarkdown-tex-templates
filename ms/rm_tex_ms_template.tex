@@ -129,7 +129,8 @@ $endif$
 $if(anonymous)$
 $else$
 
-\author{$for(author)$ $author.name$ \thanks{$author.affiliation$, $author.mail$} $sep$ \and $endfor$}$endif$
+\author{$for(author)$ $author.name$ \\ \small $author.affiliation$ $sep$ \and $endfor$}$endif$
+
 
 \date{$if(date)$\normalsize{\emph{$date$}}$else$ \today $endif$}
 \maketitle

@@ -12,6 +12,15 @@ author:
 - name: Author 1
   affiliation: Affiliation 1
   mail: author1@yourmail.com
+- name: Author 2
+  affiliation: Affiliation 2
+  mail: author1@yourmail.com
+- name: Author 3
+  affiliation: Affiliation 3
+  mail: author1@yourmail.com
+- name: Author 4
+  affiliation: Affiliation 4
+  mail: author1@yourmail.com
 abstract: 
   text: In here you can write the abstract of your amazing academic paper. Blah Blah Blah my paper is awesome, don't reject it.
   size: 'footnotesize'
