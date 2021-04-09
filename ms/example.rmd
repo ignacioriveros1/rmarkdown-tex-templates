@@ -43,7 +43,11 @@ anonymous: false # quickly sanitizes manuscript for blind review if 'true'
 
 ---
 
-\begin{hyp}[dasdas]
 
+
+\begin{hyp}[Hello World]
+\begin{equation}
+  x \leftrightarrow y
+\end{equation}
 \end{hyp}
 aaaa
